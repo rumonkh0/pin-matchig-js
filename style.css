@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left,
+.right {
+  margin: 25px;
+  padding: 20px;
+  background-color: azure;
+  height: 80vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.txt {
+  color: white;
+}
+
+.genpin {
+  width: 90%;
+  height: 10%;
+  padding: 4px;
+  font-size: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btndiv {
+  height: 90%;
+  width: 90%;
+  background-color: red;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 120px;
+  width: 120px;
+  transform: scale(1.5);
+  user-select: none;
+  text-align: center;
+  border-radius: 50%;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.btnpad {
+  height: 80%;
+  width: 50%;
+  min-width: 300px;
+  padding: 30px;
+  position: relative;
+  border-radius: 20px;
+  /*   background-color: blue;
+ */
+}
+
+.tri {
+  height: 23%;
+  width: 100%;
+  padding: 10px 0px 0px 15px;
+  position: relative;
+  background-color: yellow;
+}
+
+.tri > button {
+  font-size: 40px;
+  color: red;
+  height: 90%;
+  width: 30%;
+  border: none;
+  border-radius: 14px;
+}
+
+.submit {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnlst {
+  margin-top: 5px;
+  color: red;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#time {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.success {
+  text-align: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in,
+.out {
+  background-color: green;
+  width: 50%;
+  max-width: 95%;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.out {
+  background-color: red;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 95%;
+  }
+}

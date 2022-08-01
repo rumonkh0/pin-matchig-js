@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>password matching</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="genpin" id="gen1"></div>
+        <div class="btndiv">
+          <div class="btn" id="generator">
+            <div class="txt">Generate Pin</div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="genpin" id="gen2"></div>
+        <div class="btnpad">
+          <div class="tri">
+            <button class="9 bt" id="9" value="9">9</button>
+            <button class="8 bt" id="8" value="8">8</button>
+            <button class="7 bt" id="7" value="7">7</button>
+          </div>
+          <div class="tri">
+            <button class="6 bt" id="6" value="6">6</button>
+            <button class="5 bt" id="5" value="5">5</button>
+            <button class="4 bt" id="4" value="4">4</button>
+          </div>
+          <div class="tri">
+            <button class="3 bt" id="3" value="3">3</button>
+            <button class="2 bt" id="2" value="2">2</button>
+            <button class="1 bt" id="1" value="1">1</button>
+          </div>
+          <div class="tri">
+            <button class="# bt" id="#" value="#">#</button>
+            <button class="0 bt" id="0" value="0">0</button>
+            <button class="C bt" id="C" value="C">C</button>
+          </div>
+          <button id="submit" class="btnlst" type="submit" disabled>
+            submit
+          </button>
+        </div>
+        <div class="submit">
+          <div id="time">Genearte a random pin</div>
+        </div>
+      </div>
+    </div>
+    <div id="success" class="success"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
